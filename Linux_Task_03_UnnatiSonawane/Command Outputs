@@ -1,1 +1,78 @@
+===== PROCESS MONITORING =====
+
+ps
+
+[Paste output]
+
+--------------------------------
+
+ps aux
+
+[Paste output]
+
+--------------------------------
+
+top
+
+[Paste output]
+
+--------------------------------
+
+htop
+
+[Screenshot Taken]
+
+=================================
+
+===== PROCESS MANAGEMENT =====
+
+sleep 300
+
+PID Found:
+[PID]
+
+kill PID
+
+Result:
+Process terminated successfully
+
+=================================
+
+===== SYSTEM MONITORING =====
+
+free -h
+
+[Output]
+
+--------------------------------
+
+df -h
+
+[Output]
+
+--------------------------------
+
+uptime
+
+[Output]
+
+--------------------------------
+
+uname -a
+
+[Output]
+
+=================================
+
+===== SERVICE MONITORING =====
+
+systemctl status ssh
+
+[Output]
+
+--------------------------------
+
+systemctl status NetworkManager
+
+[Output]
 
