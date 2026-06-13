@@ -1,44 +1,43 @@
-# Linux Task 03 Research Answers
+Linux Task 03 Research Answers
 
-##Part A: Process Monitoring
+Part A: Process Monitoring
 
-### What is a Process?
+ What is a Process?
 
 A process is a program that is currently running on the operating system. Every application running in Linux is executed as a process.
 
-### What is a PID?
+ What is a PID?
 
 PID stands for Process Identifier. It is a unique number assigned to each running process by Linux.
 
-### Which process consumed the most CPU?
+Which process consumed the most CPU?
 
 [Write process name from your top or htop output]
 
-### Which process consumed the most Memory?
+ Which process consumed the most Memory?
 
 [Write process name from your top or htop output]
 
----
 
-## Part D: Service Monitoring
 
-### What is a Service?
+                  Part D: Service Monitoring
+
+ What is a Service?
 
 A service is a background program that runs continuously and performs specific tasks for the operating system.
 
-### Why are Services Important?
+ Why are Services Important?
 
 Services provide important functionality such as networking, remote access, printing, and security monitoring.
 
-### How Can a Stopped Service Affect a System?
+ How Can a Stopped Service Affect a System?
 
 If an important service stops, some system functions may stop working. For example, if the SSH service stops, users cannot remotely access the system.
 
----
 
-## Part F: Security Monitoring Challenge
+           Part F: Security Monitoring Challenge
 
-### netstat
+netstat
 
 Purpose:
 Displays active network connections and listening ports.
@@ -49,9 +48,9 @@ netstat -tuln
 Security Use Case:
 Used to identify suspicious connections and open ports.
 
----
+-------
 
-### ss
+ ss
 
 Purpose:
 Displays socket and network statistics.
@@ -62,9 +61,9 @@ ss -tuln
 Security Use Case:
 Helps monitor active network connections.
 
----
+------
 
-### who
+ who
 
 Purpose:
 Displays users currently logged into the system.
@@ -75,9 +74,9 @@ who
 Security Use Case:
 Helps identify unauthorized users.
 
----
+-----
 
-### w
+ w
 
 Purpose:
 Displays logged-in users and their activities.
@@ -88,9 +87,9 @@ w
 Security Use Case:
 Used to monitor user activity on the system.
 
----
+------
 
-### last
+ last
 
 Purpose:
 Displays login history.
@@ -101,19 +100,18 @@ last
 Security Use Case:
 Useful for investigating suspicious login attempts.
 
----
 
-## Part G: Mini SOC Activity
+             Part G: Mini SOC Activity
 
-### How would you identify resource-heavy processes?
+ How would you identify resource-heavy processes?
 
 I would use commands such as top, htop, and ps aux to identify processes consuming high CPU and memory resources.
 
-### How would you determine whether a process is suspicious?
+ How would you determine whether a process is suspicious?
 
 I would check the process name, PID, owner, CPU usage, memory usage, and file location. Unknown or unusual processes may be suspicious.
 
-### What information would you collect before terminating a process?
+ What information would you collect before terminating a process?
 
 Before terminating a process, I would collect:
 
