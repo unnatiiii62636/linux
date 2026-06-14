@@ -1,1 +1,71 @@
 
+
+# Linux Task 01 - Command Outputs
+
+## pwd
+
+Purpose: Displays the current working directory.
+
+## ls
+
+Purpose: Lists files and folders in the current directory.
+
+## ls -la
+
+Purpose: Lists all files, including hidden files, with detailed information.
+
+## cd
+
+Purpose: Changes the current directory.
+
+## clear
+
+Purpose: Clears the terminal screen.
+
+## history
+
+Purpose: Shows previously executed commands.
+
+## whoami
+
+Purpose: Displays the current logged-in username.
+
+## hostname
+
+Purpose: Displays the system hostname.
+
+## mkdir
+
+Purpose: Creates a new directory.
+
+## tree
+
+Purpose: Displays directories and files in a tree structure.
+
+## touch
+
+Purpose: Creates a new empty file.
+
+## cp
+
+Purpose: Copies files or directories.
+
+## mv
+
+Purpose: Moves or renames files and directories.
+
+## rm
+
+Purpose: Deletes files or directories.
+
+## uname -a
+
+Purpose: Displays detailed system and kernel information.
+
+## date
+
+Purpose: Displays the current date and time.
+
+## uptime
+
+Purpose: Displays how long the system has been running.
