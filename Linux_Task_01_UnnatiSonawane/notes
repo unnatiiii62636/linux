@@ -1,1 +1,37 @@
 
+# Linux Task 01 Notes
+
+Linux is one of the most important operating systems in cybersecurity.
+
+Important Commands Learned:
+
+pwd - Show current directory
+
+ls - List files and folders
+
+cd - Change directory
+
+mkdir - Create directory
+
+touch - Create file
+
+cp - Copy file
+
+mv - Move or rename file
+
+rm - Delete file
+
+whoami - Show current user
+
+hostname - Show system name
+
+date - Show current date and time
+
+uptime - Show system uptime
+
+Key Learning:
+
+* Linux uses a command-line interface called Terminal.
+* Files and folders are organized in a hierarchical structure.
+* Linux is widely used in servers, cloud computing, and cybersecurity.
+* Understanding Linux commands is essential for ethical hacking and system administration.
