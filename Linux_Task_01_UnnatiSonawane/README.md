@@ -2,7 +2,7 @@
 
 ## Student Name
 
-Unnati
+Unnati Sonawane
 
 ## Objective
 
@@ -26,6 +26,8 @@ The objective of this task was to learn Linux basics, terminal navigation, file 
 * README.md
 
 ## Learning Outcome
+
+Through this task, I learned basic Linux commands, file management, terminal usage, and the importance of Linux in cybersecurity.
 
 Through this task, I learned basic Linux commands, file management, terminal usage, and the importance of Linux in cybersecurity.
 
