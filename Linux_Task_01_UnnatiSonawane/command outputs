@@ -1,71 +1,93 @@
+Linux Task 01 - Command Outputs
 
-
-# Linux Task 01 - Command Outputs
-
-## pwd
+pwd
 
 Purpose: Displays the current working directory.
 
-## ls
+/home/kali
+
+ ls
 
 Purpose: Lists files and folders in the current directory.
 
-## ls -la
+csrf_attack.html.save  Documents  idk.pcapng      Music        output.xml  passwd.save  Pictures  results_sT.txt  shadow.save  Videos
+Desktop                Downloads  live_hosts.txt  output.json  passwd      password     Public    shadow          Templates
+
+
+ ls -la
 
 Purpose: Lists all files, including hidden files, with detailed information.
 
-## cd
+total 428
+drwx------ 19 kali kali   4096 Jun 14 13:40 .
+drwxr-xr-x  3 root root   4096 May 29  2025 ..
+-rw-r--r--  1 kali kali    220 May 29  2025 .bash_logout
+
+cd
 
 Purpose: Changes the current directory.
 
-## clear
+ clear
 
 Purpose: Clears the terminal screen.
 
-## history
+ history
 
 Purpose: Shows previously executed commands.
 
-## whoami
+    1  whoami
+    2  hostname
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  clear
+    6  ip a
+    7  ip addr
+
+
+ whoami
 
 Purpose: Displays the current logged-in username.
 
-## hostname
+kali
+
+ hostname
 
 Purpose: Displays the system hostname.
 
-## mkdir
+kali
+ 
+mkdir
 
 Purpose: Creates a new directory.
 
-## tree
+ tree
 
 Purpose: Displays directories and files in a tree structure.
 
-## touch
+ touch
 
 Purpose: Creates a new empty file.
 
-## cp
+ cp
 
 Purpose: Copies files or directories.
 
-## mv
+ mv
 
 Purpose: Moves or renames files and directories.
 
-## rm
+ rm
 
 Purpose: Deletes files or directories.
 
-## uname -a
+uname -a
 
 Purpose: Displays detailed system and kernel information.
 
-## date
+ date
 
 Purpose: Displays the current date and time.
 
-## uptime
+ uptime
 
 Purpose: Displays how long the system has been running.
